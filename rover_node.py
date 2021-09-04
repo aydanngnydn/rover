@@ -26,7 +26,6 @@ def callback1(data): #arm 24
       arm5 = sign(veri[17]) * int(veri[18:21])
       arm6 = sign(veri[21]) * int(veri[22:25])
 
-      #sınır değerlerine eşitleme
       if arm1 < -255:
             arm1 = -255
       if arm1 > 255:
